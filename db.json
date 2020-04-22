@@ -1,0 +1,123 @@
+{
+  "todo": [
+    {
+      "title": "Продукты",
+      "id": "qrwr124",
+      "points": [
+        {
+          "state": true,
+          "text": "Молоко",
+          "id": "asfq12"
+        },
+        {
+          "state": false,
+          "text": "Зелень",
+          "id": "asg32"
+        },
+        {
+          "state": true,
+          "text": "Яблоки",
+          "id": "fgjtr34"
+        },
+        {
+          "state": true,
+          "text": "Хлеб",
+          "id": "67fdds"
+        },
+        {
+          "state": false,
+          "text": "Картофель",
+          "id": "dgh456"
+        }
+      ]
+    },
+    {
+      "title": "Сад",
+      "id": "dhr34rh",
+      "points": [
+        {
+          "state": true,
+          "text": "Посадить розы",
+          "id": "rh346"
+        },
+        {
+          "state": false,
+          "text": "Удобрить почву",
+          "id": "vadva45"
+        },
+        {
+          "state": true,
+          "text": "Вскопать грядки",
+          "id": "asg346"
+        },
+        {
+          "state": false,
+          "text": "Посадить лук",
+          "id": "sdg346"
+        },
+        {
+          "state": false,
+          "text": "Полить огурцы",
+          "id": "nbmh34"
+        }
+      ]
+    },
+    {
+      "title": "Выучить английский",
+      "id": "ghsh456",
+      "points": [
+        {
+          "state": true,
+          "text": "Изучить времена",
+          "id": "fbs3451"
+        },
+        {
+          "state": true,
+          "text": "Перевести тект",
+          "id": "ghj678"
+        },
+        {
+          "state": false,
+          "text": "Выучить стихотворение",
+          "id": "zxvq35"
+        },
+        {
+          "state": true,
+          "text": "Написать сочинение",
+          "id": "vncf436"
+        }
+      ]
+    },
+    {
+      "title": "Список дел",
+      "id": "tcer456",
+      "points": [
+        {
+          "state": false,
+          "text": "Вымыть посуду",
+          "id": "vzdf123"
+        },
+        {
+          "state": false,
+          "text": "Полить цветы",
+          "id": "rbj3246"
+        },
+        {
+          "state": false,
+          "text": "Вынести мусор",
+          "id": "wqr124"
+        },
+        {
+          "state": true,
+          "text": "Постирать вещи",
+          "id": "weas124"
+        },
+        {
+          "state": true,
+          "text": "Погладить кота",
+          "id": "cvbd578"
+        }
+      ]
+    }
+  ]
+}
