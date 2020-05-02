@@ -6,7 +6,7 @@
                    v-else
                    v-model="formModel.title"/>
 
-                <ul class="points">
+                <ul class="points" :class="$route.name === 'id' ? 'all-points' : 'hide-points'">
                     <li v-for="point in formModel.points" :key="point.id">
                         <input type="checkbox"
                                :id="point.id"
@@ -23,6 +23,11 @@
                     </li>
                 </ul>
         </form>
+
+        <nuxt-link :to="{name: 'id', params: {id: formModel.id}}"
+                    v-if="$route.name !== 'id'">
+            All points >>
+        </nuxt-link>
     </div>
 </template>
 
@@ -91,22 +96,39 @@
 
 <style lang="less">
     .todo-list__container {
-        max-width: 450px;
-        min-width: 300px;
+        width: 250px;
         padding: 0 30px 30px;
+        border: 2px solid #4196c4a1;
+        border-radius: 5px;
+        background-color: rgba(65, 196, 195, 0.27);
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+        height: 290px;
+        margin: 20px;
 
         h3 {
-            font-size: 28px;
+            font-size: 24px;
+        }
+
+        .all-points {
+            overflow: inherit;
+            height: auto;
+        }
+
+        .hide-points {
+            height: 150px;
+            overflow: hidden;
         }
 
         .points {
             list-style: none;
-            padding-left: 20px;
+            padding: 0 0 20px 20px;
+            border-bottom: 1px solid #47494e;
 
             li {
                 display: flex;
                 align-items: center;
                 margin-bottom: 15px;
+                line-height: 18px;
 
                 .point_done {
                     text-decoration: line-through #ae000f;
